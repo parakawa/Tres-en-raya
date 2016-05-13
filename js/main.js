@@ -20,21 +20,21 @@ $(document).ready(function(){
 
 		if(x1==x2 && x2==x3 && x1!="")
 			alert("Jugador de la marca "+x1+ " gana");
-		if(x4==x5 && x5==x6 && x4!="")
+		else if(x4==x5 && x5==x6 && x4!="")
 			alert("Jugador de la marca "+x4+ " gana");
-		if(x7==x8 && x8==x9 && x7!="")
+		else if(x7==x8 && x8==x9 && x7!="")
 			alert("Jugador de la marca "+x7+ " gana");
-		if(x1==x4 && x4==x7 && x1!="")
+		else if(x1==x4 && x4==x7 && x1!="")
 			alert("Jugador de la marca "+x1+ " gana");
-		if(x2==x5 && x5==x8 && x2!="")
+		else if(x2==x5 && x5==x8 && x2!="")
 			alert("Jugador de la marca "+x2+ " gana");
-		if(x3==x6 && x6==x9 && x3!="")
+		else if(x3==x6 && x6==x9 && x3!="")
 			alert("Jugador de la marca "+x3+ " gana");
-		if(x1==x5 && x5==x9 && x1!="")
+		else if(x1==x5 && x5==x9 && x1!="")
 			alert("Jugador de la marca "+x1+ " gana");
-		if(x3==x5 && x5==x7 && x3!="")
+		else if(x3==x5 && x5==x7 && x3!="")
 			alert("Jugador de la marca "+x3+ " gana");
-		if(i==9){
+		else(i==9){
 			alert("Empate")
 			i=0;
 		}

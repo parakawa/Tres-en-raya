@@ -34,7 +34,10 @@ $(document).ready(function(){
 			alert("Jugador de la marca "+x1+ " gana");
 		if(x3==x5 && x5==x7 && x3!="")
 			alert("Jugador de la marca "+x3+ " gana");
-
+		if(i==9){
+			alert("Empate")
+			i=0;
+		}
 		
 	});
 
